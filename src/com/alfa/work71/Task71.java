@@ -7,8 +7,11 @@ public class Task71 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Massive Size: ");
         int masSize = scan.nextInt();
-        int[] mas = createArray(masSize);
-        System.out.printf("Massive: "+Arrays.toString(mas));
+        if(masSize < 0) {
+            System.out.printf("Invalid Massive Size: "+masSize);
+            return;
+        }
+        System.out.printf("Massive: "+Arrays.toString(createArray(masSize)));
     }
     public static int[] createArray(int size){
         int[] mas = new int[size];

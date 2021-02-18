@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 public class Task74 {
     public  static  void  main(String[]  args){
-//        Scanner scan = new Scanner(System.in);
-//        System.out.println("Enter Matrix Size: ");
-//        int matrixSize = scan.nextInt();
-        int matrixSize = 5;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Matrix Size: ");
+        int matrixSize = scan.nextInt();
         if (matrixSize < 0) {
             System.out.printf("Invalid Matrix Size: " + matrixSize);
             return;

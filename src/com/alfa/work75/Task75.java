@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task75 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter Didits String: ");
+        System.out.println("Enter Digits String: ");
         String inString = scan.nextLine();
         int[] mas = countOfSequenceNumbers(inString);
         System.out.println(Arrays.toString(mas));

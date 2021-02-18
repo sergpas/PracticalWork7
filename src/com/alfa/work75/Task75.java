@@ -20,6 +20,6 @@ public class Task75 {
             if (idx < 0) continue;
             masCntDidits[idx]++;
         }
-        return  masCntDidits;
+        return masCntDidits;
     }
 }

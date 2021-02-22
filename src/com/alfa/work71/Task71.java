@@ -1,6 +1,5 @@
 package com.alfa.work71;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 
 public class Task71 {
     public static void main(String[] args) {

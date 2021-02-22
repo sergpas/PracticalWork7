@@ -15,7 +15,7 @@ public class Task71 {
     }
     public static int[] createArray(int size){
         int[] mas = new int[size];
-        for(int i = 0; i < size; i++){
+        for(int i = 0; i < mas.length; i++){
             mas[i] = (i+1)*2;
         }
         return mas;

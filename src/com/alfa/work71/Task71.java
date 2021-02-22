@@ -6,13 +6,10 @@ public class Task71 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Massive Size: ");
         int masSize = scan.nextInt();
-        if(masSize <= 0) {
-            System.out.printf("Invalid Massive Size: "+masSize);
-            return;
-        }
         System.out.printf("Massive: "+Arrays.toString(createArray(masSize)));
     }
     public static int[] createArray(int size){
+        if(size < 0) size=0;
         int[] mas = new int[size];
         for(int i = 0; i < mas.length; i++){
             mas[i] = (i+1)*2;

@@ -10,7 +10,7 @@ public class Task72 {
         int sumOdd = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] < 0) return -1;
-            sumOdd += (i % 2 == 0) ? array[i] : 0;
+            sumOdd += (array[i] % 2 == 0) ? array[i] : 0;
         }
         return sumOdd;
     }

@@ -17,8 +17,7 @@ public class Task75 {
         int[] masCntDidits = new int[9];
         for (int i = 0; i < numbers.length(); i++) {
             int idx = digits.indexOf(numbers.charAt(i));
-            if (idx < 0) continue;
-            masCntDidits[idx]++;
+            if (idx >= 0) masCntDidits[idx]++;
         }
         return masCntDidits;
     }

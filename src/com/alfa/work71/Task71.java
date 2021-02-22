@@ -6,7 +6,7 @@ public class Task71 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Massive Size: ");
         int masSize = scan.nextInt();
-        if(masSize < 0) {
+        if(masSize <= 0) {
             System.out.printf("Invalid Massive Size: "+masSize);
             return;
         }
